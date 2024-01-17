@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Caveat&family=Fraunces:opsz,wght@9..144,100&family=Hind+Siliguri:wght@500;700&family=Montserrat:wght@100&family=Open+Sans:wght@300;400;600;700;800&family=Outfit&family=PT+Sans:ital,wght@0,400;1,700&family=Pacifico&family=Poppins:wght@300;400;500;600;700;800;900&family=Rethink+Sans&family=Roboto:ital,wght@0,300;0,400;1,500;1,700&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body><div class="main_div">
+    <h2>Expense Traker</h2>
+    <div class="sub_div">
+        <h2>YOUR BALANCE</h2>
+       <strong id="total_balance">&#8377<span>0.00</span></strong> 
+        <div class="income_expence_show_box">
+            <div class="left_income">
+                <h2>INCOME</h2>
+                <strong style="color: green;">&#8377<span id="income">0.00</span></strong> 
+            </div>
+            <div class="right_expense">
+                <h2>EXPENSE</h2>
+                <strong style="color: red;">&#8377 <span id="expense">0.00</span>  </strong>
+            </div>
+        </div>
+        <h3>History</h3>
+        <div class="history_show_box">
+           
+        </div>
+        <h3>Add new transaction</h3>
+        <form action="" name="amount_form">
+            <div class="div">
+                <label for="">Text</label><br>
+                <input type="text" placeholder="Enter text" id="text_input" name="text_input" required>
+            </div>
+            <div class="div">
+                <label for="">Amount<br>(negative-expense,positive-income)</label><br>
+                <input type="number" placeholder="Enter amount..." name="number_input" required>
+            </div>
+            <button id="Add_transaction_btn">Add transaction</button>
+        </form>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
