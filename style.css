@@ -63,7 +63,7 @@ input {
 button#Add_transaction_btn {
     width: 100%;
     padding: 10px 0px;
-    background: rgb(208, 162, 247);
+    background: rgb(174, 116, 225);
     border-radius: 7px;
     cursor: pointer;
     border: none;
